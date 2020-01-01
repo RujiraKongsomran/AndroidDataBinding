@@ -5,10 +5,11 @@
 
         <variable
             name="user"
-            type="com.rujira.androiddatabinding.Model.User" />
+            type="com.rujira.androiddatabinding.model.User" />
     </data>
 
-    <RelativeLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -23,6 +24,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@{user.lastName}" />
-    </RelativeLayout>
+    </LinearLayout>
 
 </layout>

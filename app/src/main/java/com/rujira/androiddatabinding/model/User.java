@@ -1,4 +1,4 @@
-package com.rujira.androiddatabinding.Model;
+package com.rujira.androiddatabinding.model;
 
 public class User {
     private String firstName;
