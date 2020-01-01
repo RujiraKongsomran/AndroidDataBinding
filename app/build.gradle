@@ -2,6 +2,8 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
+    //Data binding
+    dataBinding.enabled = true
     buildToolsVersion "29.0.0"
     defaultConfig {
         applicationId "com.rujira.androiddatabinding"
@@ -26,4 +28,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    testImplementation "com.android.databinding:compiler:5.4.1"
 }
